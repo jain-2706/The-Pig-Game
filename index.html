@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Pig Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <div class="left" id="player_active">
+          <div class="section">
+            <p class="name" id="switch_player">PLAYER 1</p>
+            <p class="score" id="score0e1" style="text-align: center">0</p>
+          </div>
+          <div class="bottom">
+            <div class="chota">
+              <p class="current">CURRENT</p>
+              <p class="current_score" id="current_score0e1">0</p>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="section">
+            <p class="name">PLAYER 2</p>
+            <p class="score" id="score1e2">0</p>
+          </div>
+          <div class="bottom">
+            <div class="chota">
+              <p class="current">CURRENT</p>
+              <p class="current_score" id="current_score1e2">0</p>
+            </div>
+          </div>
+        </div>
+        <div class="but">
+          <div class="buttop">
+            <button class="modify" id="reset">🔄️ NEW GAME</button>
+          </div>
+          <div class="butdown">
+            <button class="modify" id="roll">🎲 ROLL DICE</button>
+            <button class="modify" id="pataka">💱 HOLD</button>
+          </div>
+          <img
+            class="alag hidden"
+            width="95px"
+            height="90px"
+            src="dice-5.png "
+            alt="Error"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
